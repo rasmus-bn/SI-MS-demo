@@ -13,8 +13,11 @@
  * https://sailsjs.com/docs/concepts/models-and-orm/model-settings
  */
 
-module.exports.models = {
-
+  module.exports.models = {
+    module.exports.models = {
+    connection: 'mongo',
+    migrate: 'safe'
+  };
 
   /***************************************************************************
   *                                                                          *
